@@ -1,0 +1,77 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "statusMessage": "Loading Meta_Kim memory",
+            "type": "command",
+            "command": "node .codex/hooks/meta-kim-memory-save.mjs --event session-start",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .codex/hooks/meta-kim-memory-save.mjs --event user-prompt",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "node .codex/hooks/hookprompt-adapter.mjs",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash|apply_patch|Edit|Write|MultiEdit|NotebookEdit|Agent|spawn_agent",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .codex/hooks/enforce-agent-dispatch.mjs",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .codex/hooks/graphify-context.mjs"
+          }
+        ]
+      }
+    ],
+    "Skill": [
+      {
+        "matcher": "meta-theory",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .codex/hooks/activate-meta-theory-spine.mjs",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .codex/hooks/meta-kim-memory-save.mjs --event stop",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

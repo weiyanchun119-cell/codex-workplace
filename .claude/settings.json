@@ -1,0 +1,127 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Read(./**/*.pem)",
+      "Read(./**/*.key)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/meta-kim-memory-save.mjs --event session-start",
+            "timeout": 10,
+            "statusMessage": "Loading Meta_Kim memory"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/meta-kim-memory-save.mjs --event user-prompt",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/graphify-context.mjs"
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/block-dangerous-bash.mjs"
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit|Bash|Agent|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/enforce-agent-dispatch.mjs"
+          }
+        ]
+      },
+      {
+        "matcher": "Skill",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/activate-meta-theory-spine.mjs"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/post-format.mjs"
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/post-typecheck.mjs"
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/post-console-log-warn.mjs"
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/subagent-context.mjs"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/stop-memory-save.mjs"
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/stop-compaction.mjs"
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/stop-console-log-audit.mjs"
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/stop-completion-guard.mjs"
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/stop-spine-cleanup.mjs"
+          }
+        ]
+      }
+    ]
+  }
+}

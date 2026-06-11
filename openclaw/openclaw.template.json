@@ -1,0 +1,111 @@
+{
+  "agents": {
+    "list": [
+      {
+        "id": "meta-warden",
+        "default": true,
+        "name": "Meta-Warden: Meta Department Manager",
+        "workspace": "C:/Users/123456/AppData/Local/npm-cache/_npx/7750253e853e078d/node_modules/meta-kim/openclaw/workspaces/meta-warden"
+      },
+      {
+        "id": "meta-genesis",
+        "default": false,
+        "name": "Meta-Genesis: Soul Meta 🧬",
+        "workspace": "C:/Users/123456/AppData/Local/npm-cache/_npx/7750253e853e078d/node_modules/meta-kim/openclaw/workspaces/meta-genesis"
+      },
+      {
+        "id": "meta-artisan",
+        "default": false,
+        "name": "Meta-Artisan: Craft Meta 🎨",
+        "workspace": "C:/Users/123456/AppData/Local/npm-cache/_npx/7750253e853e078d/node_modules/meta-kim/openclaw/workspaces/meta-artisan"
+      },
+      {
+        "id": "meta-sentinel",
+        "default": false,
+        "name": "Meta-Sentinel: Sentinel Meta",
+        "workspace": "C:/Users/123456/AppData/Local/npm-cache/_npx/7750253e853e078d/node_modules/meta-kim/openclaw/workspaces/meta-sentinel"
+      },
+      {
+        "id": "meta-librarian",
+        "default": false,
+        "name": "Meta-Librarian: Archive Meta",
+        "workspace": "C:/Users/123456/AppData/Local/npm-cache/_npx/7750253e853e078d/node_modules/meta-kim/openclaw/workspaces/meta-librarian"
+      },
+      {
+        "id": "meta-conductor",
+        "default": false,
+        "name": "Meta-Conductor: Orchestration Meta",
+        "workspace": "C:/Users/123456/AppData/Local/npm-cache/_npx/7750253e853e078d/node_modules/meta-kim/openclaw/workspaces/meta-conductor"
+      },
+      {
+        "id": "meta-prism",
+        "default": false,
+        "name": "Meta-Prism: Iterative Reviewer",
+        "workspace": "C:/Users/123456/AppData/Local/npm-cache/_npx/7750253e853e078d/node_modules/meta-kim/openclaw/workspaces/meta-prism"
+      },
+      {
+        "id": "meta-scout",
+        "default": false,
+        "name": "Meta-Scout: Tool Discoverer 🔭",
+        "workspace": "C:/Users/123456/AppData/Local/npm-cache/_npx/7750253e853e078d/node_modules/meta-kim/openclaw/workspaces/meta-scout"
+      },
+      {
+        "id": "meta-chrysalis",
+        "default": false,
+        "name": "Meta-Chrysalis: Evolution Meta (cididian)",
+        "workspace": "C:/Users/123456/AppData/Local/npm-cache/_npx/7750253e853e078d/node_modules/meta-kim/openclaw/workspaces/meta-chrysalis"
+      }
+    ]
+  },
+  "bindings": [],
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "session-memory": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "boot-md": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "skills": {
+    "load": {
+      "extraDirs": [
+        "C:/Users/123456/AppData/Local/npm-cache/_npx/7750253e853e078d/node_modules/meta-kim/openclaw/skills"
+      ]
+    }
+  },
+  "tools": {
+    "agentToAgent": {
+      "enabled": true,
+      "allow": [
+        "meta-warden",
+        "meta-genesis",
+        "meta-artisan",
+        "meta-sentinel",
+        "meta-librarian",
+        "meta-conductor",
+        "meta-prism",
+        "meta-scout",
+        "meta-chrysalis"
+      ]
+    }
+  },
+  "mcp": {
+    "servers": {
+      "meta-kim-runtime": {
+        "command": "node",
+        "args": [
+          "C:/Users/123456/AppData/Local/npm-cache/_npx/7750253e853e078d/node_modules/meta-kim/scripts/mcp/meta-runtime-server.mjs"
+        ],
+        "env": {}
+      }
+    }
+  }
+}

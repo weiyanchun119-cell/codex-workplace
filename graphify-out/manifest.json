@@ -1,0 +1,927 @@
+{
+  ".claude/capability-index/meta-kim-capabilities.json": {
+    "mtime": 1781151534.8025193,
+    "ast_hash": "6f0b4829ec0311cf969c7a004d79392c",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/activate-meta-theory-spine.mjs": {
+    "mtime": 1781151534.829914,
+    "ast_hash": "822225933cb435ba5309b7773963e24f",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/bash-readonly-whitelist.mjs": {
+    "mtime": 1781151534.8207676,
+    "ast_hash": "5fa7168f46c30480451637808e01a06c",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/block-dangerous-bash.mjs": {
+    "mtime": 1781151534.8207676,
+    "ast_hash": "7c1a56224b518d0e454e315683c5d00b",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/ecc-permission-cache-wrapper.mjs": {
+    "mtime": 1781151534.8222804,
+    "ast_hash": "1ce6b054b11761434ffc395b2055dab5",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/enforce-agent-dispatch.mjs": {
+    "mtime": 1781151534.8222804,
+    "ast_hash": "79413e1446d02031aa63e32965204526",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/graphify-context.mjs": {
+    "mtime": 1781151534.8237936,
+    "ast_hash": "93574001acf589dbc98f63e828972fcf",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/hook-i18n.mjs": {
+    "mtime": 1781151534.831439,
+    "ast_hash": "3fdc276cc0d088a0495e96a58fd961cf",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/meta-kim-memory-save.mjs": {
+    "mtime": 1781151534.831439,
+    "ast_hash": "2e17407e3e11068334cfa1e0e66343ed",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/post-console-log-warn.mjs": {
+    "mtime": 1781151534.8237936,
+    "ast_hash": "24cd9a60e907d1335be7380708eda713",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/post-format.mjs": {
+    "mtime": 1781151534.8237936,
+    "ast_hash": "196d5bea1a8682451837f70c153d6953",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/post-typecheck.mjs": {
+    "mtime": 1781151534.8253162,
+    "ast_hash": "2f47f7473e0061ce429cfc17fa6c9c95",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/skip-reminder.mjs": {
+    "mtime": 1781151534.8329527,
+    "ast_hash": "2bb810b6e7c8cf1daee0cb2e31348a92",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/spine-state.mjs": {
+    "mtime": 1781151534.8253162,
+    "ast_hash": "665c0e9e1e8c16fe36496e94de315a88",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/stop-compaction.mjs": {
+    "mtime": 1781151534.8253162,
+    "ast_hash": "22a8b5ddcfb48134719a7eaaad152834",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/stop-completion-guard.mjs": {
+    "mtime": 1781151534.8268878,
+    "ast_hash": "31d412c5fc63d5dec8d752c03086671f",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/stop-console-log-audit.mjs": {
+    "mtime": 1781151534.8268878,
+    "ast_hash": "c41c2a2966ba2cc8aea92819c91ac11a",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/stop-memory-save.mjs": {
+    "mtime": 1781151534.8268878,
+    "ast_hash": "1e485a0423d2d459c5fcd9c35fad68b3",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/stop-save-progress.mjs": {
+    "mtime": 1781151534.8284006,
+    "ast_hash": "86c2503fb9fac0d073e71e60ec0d6bf0",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/stop-spine-cleanup.mjs": {
+    "mtime": 1781151534.8284006,
+    "ast_hash": "65ac2cca1ee78df0231d4ec14ed158a2",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/subagent-context.mjs": {
+    "mtime": 1781151534.8284006,
+    "ast_hash": "3c352915fc60b40e1bd2e292b49af54d",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/utils.mjs": {
+    "mtime": 1781151534.829914,
+    "ast_hash": "57236a7da7f92538df2e2044cbf82d5a",
+    "semantic_hash": ""
+  },
+  ".claude/settings.json": {
+    "mtime": 1781151534.8329527,
+    "ast_hash": "820127ba3ed685fb8f903aed0a68d831",
+    "semantic_hash": ""
+  },
+  ".codex/capability-index/meta-kim-capabilities.json": {
+    "mtime": 1781151534.8025193,
+    "ast_hash": "6f0b4829ec0311cf969c7a004d79392c",
+    "semantic_hash": ""
+  },
+  ".codex/hooks.json": {
+    "mtime": 1781151534.8786037,
+    "ast_hash": "94188c80c0da280033c572b90ce9be59",
+    "semantic_hash": ""
+  },
+  ".codex/hooks/activate-meta-theory-spine.mjs": {
+    "mtime": 1781151534.8740604,
+    "ast_hash": "822225933cb435ba5309b7773963e24f",
+    "semantic_hash": ""
+  },
+  ".codex/hooks/bash-readonly-whitelist.mjs": {
+    "mtime": 1781151534.8740604,
+    "ast_hash": "5fa7168f46c30480451637808e01a06c",
+    "semantic_hash": ""
+  },
+  ".codex/hooks/enforce-agent-dispatch.mjs": {
+    "mtime": 1781151534.8740604,
+    "ast_hash": "79413e1446d02031aa63e32965204526",
+    "semantic_hash": ""
+  },
+  ".codex/hooks/graphify-context.mjs": {
+    "mtime": 1781151534.8725333,
+    "ast_hash": "3c9e3fffd4a8537e27111679ac9534a4",
+    "semantic_hash": ""
+  },
+  ".codex/hooks/hook-i18n.mjs": {
+    "mtime": 1781151534.877088,
+    "ast_hash": "3fdc276cc0d088a0495e96a58fd961cf",
+    "semantic_hash": ""
+  },
+  ".codex/hooks/hookprompt-adapter.mjs": {
+    "mtime": 1781151534.877088,
+    "ast_hash": "e2d42f0c6890dc7569121315a266b5b8",
+    "semantic_hash": ""
+  },
+  ".codex/hooks/meta-kim-memory-save.mjs": {
+    "mtime": 1781151534.8725333,
+    "ast_hash": "2e17407e3e11068334cfa1e0e66343ed",
+    "semantic_hash": ""
+  },
+  ".codex/hooks/skip-reminder.mjs": {
+    "mtime": 1781151534.877088,
+    "ast_hash": "2bb810b6e7c8cf1daee0cb2e31348a92",
+    "semantic_hash": ""
+  },
+  ".codex/hooks/spine-state.mjs": {
+    "mtime": 1781151534.875576,
+    "ast_hash": "665c0e9e1e8c16fe36496e94de315a88",
+    "semantic_hash": ""
+  },
+  ".codex/hooks/utils.mjs": {
+    "mtime": 1781151534.875576,
+    "ast_hash": "57236a7da7f92538df2e2044cbf82d5a",
+    "semantic_hash": ""
+  },
+  ".mcp.json": {
+    "mtime": 1781151534.8344646,
+    "ast_hash": "362a4aa31b6ac3880a4bbf9c7559bce4",
+    "semantic_hash": ""
+  },
+  "meta-kim-post-copy.mjs": {
+    "mtime": 1781152047.6235418,
+    "ast_hash": "57931da4cbf366f0a928f140017df073",
+    "semantic_hash": ""
+  },
+  "openclaw/capability-index/meta-kim-capabilities.json": {
+    "mtime": 1781151534.804032,
+    "ast_hash": "6f0b4829ec0311cf969c7a004d79392c",
+    "semantic_hash": ""
+  },
+  "openclaw/hooks/mcp-memory-service/handler.ts": {
+    "mtime": 1781151534.8526783,
+    "ast_hash": "22f69c681d3345fedc890780425a7531",
+    "semantic_hash": ""
+  },
+  "openclaw/openclaw.template.json": {
+    "mtime": 1781151534.8511567,
+    "ast_hash": "7026191b6fd98c8ba8e6344ce1985173",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/SKILL.md": {
+    "mtime": 1781151534.8694458,
+    "ast_hash": "9a2bf2909900d34ae9937a485578b657",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/evals/eval-contract.md": {
+    "mtime": 1781151534.863375,
+    "ast_hash": "b9838a446628660fd48d79e38f44dd0b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/create-agent.md": {
+    "mtime": 1781151534.863375,
+    "ast_hash": "dd7ce8e20f4484cf1e57edac9cc23346",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/dev-governance.md": {
+    "mtime": 1781151534.863375,
+    "ast_hash": "0ec2d11ca7850a663156ae97eefb3090",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/evolution-writeback.md": {
+    "mtime": 1781151534.864888,
+    "ast_hash": "4169213842cad68f9a1cd49fcc9c9f9a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/intent-amplification.md": {
+    "mtime": 1781151534.864888,
+    "ast_hash": "c8a695ca33ce2914a213fb30174a3a8c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/meta-theory.md": {
+    "mtime": 1781151534.864888,
+    "ast_hash": "f8712ad82263973d7b7f6d358e15254e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/owner-resolution.md": {
+    "mtime": 1781151534.866402,
+    "ast_hash": "6b722ce117e9222a3e3893cb0ec727a5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/path-selection.md": {
+    "mtime": 1781151534.866402,
+    "ast_hash": "41557edddb23f146cef1144a070ef845",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/planning-files.md": {
+    "mtime": 1781151534.866402,
+    "ast_hash": "7e5e2c9d6e0b38a6bf8aa9105a70afe1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/rhythm-orchestration.md": {
+    "mtime": 1781151534.8679287,
+    "ast_hash": "613745fc5609dae7952a23882f8dbff9",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/runtime-claude.md": {
+    "mtime": 1781151534.8679287,
+    "ast_hash": "a23ce23ac14d98114a87a122c85670e8",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/runtime-codex.md": {
+    "mtime": 1781151534.8679287,
+    "ast_hash": "beac962ac5577e0c68eb605a60064332",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/spine-state.md": {
+    "mtime": 1781151534.8679287,
+    "ast_hash": "5b8db40703cdc3eb2b5af999e4cbad2d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/ten-step-governance.md": {
+    "mtime": 1781151534.8694458,
+    "ast_hash": "718727bebf867f2db3cc2dd3a570120a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/meta-theory/references/verification-evidence.md": {
+    "mtime": 1781151534.8694458,
+    "ast_hash": "f8f49c60819f83c73e144c4218921ac2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/same-set-reusable-flow-for-project-file-inventor/SKILL.md": {
+    "mtime": 1781151534.8709579,
+    "ast_hash": "1fcc24ca6f85b3d9386fad943b7cb4d4",
+    "semantic_hash": ""
+  },
+  ".claude/agents/meta-artisan.md": {
+    "mtime": 1781151534.807072,
+    "ast_hash": "3db3e02a74b53496552adaf2b9616098",
+    "semantic_hash": ""
+  },
+  ".claude/agents/meta-chrysalis.md": {
+    "mtime": 1781151534.8101025,
+    "ast_hash": "73bb03114bde23d5d5bc93d00ea0bf19",
+    "semantic_hash": ""
+  },
+  ".claude/agents/meta-conductor.md": {
+    "mtime": 1781151534.8085847,
+    "ast_hash": "f1f0c1457c2362cea5deb257ee443de7",
+    "semantic_hash": ""
+  },
+  ".claude/agents/meta-genesis.md": {
+    "mtime": 1781151534.8055582,
+    "ast_hash": "dcf8cd98977728bb32dd443795591903",
+    "semantic_hash": ""
+  },
+  ".claude/agents/meta-librarian.md": {
+    "mtime": 1781151534.807072,
+    "ast_hash": "732fa08dbdaf96ec59815ba6dce3721d",
+    "semantic_hash": ""
+  },
+  ".claude/agents/meta-prism.md": {
+    "mtime": 1781151534.8085847,
+    "ast_hash": "35f2cd0db8f5eeb9deb947ce34625fa2",
+    "semantic_hash": ""
+  },
+  ".claude/agents/meta-scout.md": {
+    "mtime": 1781151534.8085847,
+    "ast_hash": "fa8147b8622a214c2479212d5fb1d1b7",
+    "semantic_hash": ""
+  },
+  ".claude/agents/meta-sentinel.md": {
+    "mtime": 1781151534.807072,
+    "ast_hash": "08e6be163311cdf4e12f46e4bffdfb42",
+    "semantic_hash": ""
+  },
+  ".claude/agents/meta-warden.md": {
+    "mtime": 1781151534.8055582,
+    "ast_hash": "9e09baeb28d0a803e32a0cff00b1c2a9",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/SKILL.md": {
+    "mtime": 1781151534.8177261,
+    "ast_hash": "21ec1cd6ead1b7ae0f8c97509f775db4",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/evals/eval-contract.md": {
+    "mtime": 1781151534.8101025,
+    "ast_hash": "b9838a446628660fd48d79e38f44dd0b",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/create-agent.md": {
+    "mtime": 1781151534.811666,
+    "ast_hash": "dd7ce8e20f4484cf1e57edac9cc23346",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/dev-governance.md": {
+    "mtime": 1781151534.811666,
+    "ast_hash": "0ec2d11ca7850a663156ae97eefb3090",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/evolution-writeback.md": {
+    "mtime": 1781151534.813187,
+    "ast_hash": "4169213842cad68f9a1cd49fcc9c9f9a",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/intent-amplification.md": {
+    "mtime": 1781151534.813187,
+    "ast_hash": "c8a695ca33ce2914a213fb30174a3a8c",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/meta-theory.md": {
+    "mtime": 1781151534.813187,
+    "ast_hash": "f8712ad82263973d7b7f6d358e15254e",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/owner-resolution.md": {
+    "mtime": 1781151534.813187,
+    "ast_hash": "6b722ce117e9222a3e3893cb0ec727a5",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/path-selection.md": {
+    "mtime": 1781151534.8147,
+    "ast_hash": "41557edddb23f146cef1144a070ef845",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/planning-files.md": {
+    "mtime": 1781151534.8147,
+    "ast_hash": "7e5e2c9d6e0b38a6bf8aa9105a70afe1",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/rhythm-orchestration.md": {
+    "mtime": 1781151534.8147,
+    "ast_hash": "613745fc5609dae7952a23882f8dbff9",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/runtime-claude.md": {
+    "mtime": 1781151534.8162136,
+    "ast_hash": "a23ce23ac14d98114a87a122c85670e8",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/runtime-codex.md": {
+    "mtime": 1781151534.8162136,
+    "ast_hash": "beac962ac5577e0c68eb605a60064332",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/spine-state.md": {
+    "mtime": 1781151534.8177261,
+    "ast_hash": "5b8db40703cdc3eb2b5af999e4cbad2d",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/ten-step-governance.md": {
+    "mtime": 1781151534.8177261,
+    "ast_hash": "718727bebf867f2db3cc2dd3a570120a",
+    "semantic_hash": ""
+  },
+  ".claude/skills/meta-theory/references/verification-evidence.md": {
+    "mtime": 1781151534.8177261,
+    "ast_hash": "f8f49c60819f83c73e144c4218921ac2",
+    "semantic_hash": ""
+  },
+  ".claude/skills/same-set-reusable-flow-for-project-file-inventor/SKILL.md": {
+    "mtime": 1781151534.8192508,
+    "ast_hash": "fc86cff86563939bccab43ee8db03270",
+    "semantic_hash": ""
+  },
+  ".codex/commands/meta-theory.md": {
+    "mtime": 1781151534.8725333,
+    "ast_hash": "d3cd6b69afc4e4898d0ad061c2903ca6",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1781151146.3666787,
+    "ast_hash": "52513f524fef5de74e874857f2b084ac",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1781151146.3697157,
+    "ast_hash": "6eb1a1f392d3d0c7bd13b1df176285c7",
+    "semantic_hash": ""
+  },
+  "openclaw/hooks/mcp-memory-service/HOOK.md": {
+    "mtime": 1781151534.8526783,
+    "ast_hash": "64435774eb18836fcd1c1fed305b0188",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/SKILL.md": {
+    "mtime": 1781151534.8618574,
+    "ast_hash": "21ec1cd6ead1b7ae0f8c97509f775db4",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/evals/eval-contract.md": {
+    "mtime": 1781151534.8541923,
+    "ast_hash": "b9838a446628660fd48d79e38f44dd0b",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/create-agent.md": {
+    "mtime": 1781151534.8541923,
+    "ast_hash": "dd7ce8e20f4484cf1e57edac9cc23346",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/dev-governance.md": {
+    "mtime": 1781151534.8557124,
+    "ast_hash": "0ec2d11ca7850a663156ae97eefb3090",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/evolution-writeback.md": {
+    "mtime": 1781151534.8557124,
+    "ast_hash": "4169213842cad68f9a1cd49fcc9c9f9a",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/intent-amplification.md": {
+    "mtime": 1781151534.8557124,
+    "ast_hash": "c8a695ca33ce2914a213fb30174a3a8c",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/meta-theory.md": {
+    "mtime": 1781151534.857303,
+    "ast_hash": "f8712ad82263973d7b7f6d358e15254e",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/owner-resolution.md": {
+    "mtime": 1781151534.857303,
+    "ast_hash": "6b722ce117e9222a3e3893cb0ec727a5",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/path-selection.md": {
+    "mtime": 1781151534.857303,
+    "ast_hash": "41557edddb23f146cef1144a070ef845",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/planning-files.md": {
+    "mtime": 1781151534.857303,
+    "ast_hash": "7e5e2c9d6e0b38a6bf8aa9105a70afe1",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/rhythm-orchestration.md": {
+    "mtime": 1781151534.8588195,
+    "ast_hash": "613745fc5609dae7952a23882f8dbff9",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/runtime-claude.md": {
+    "mtime": 1781151534.8588195,
+    "ast_hash": "a23ce23ac14d98114a87a122c85670e8",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/runtime-codex.md": {
+    "mtime": 1781151534.8588195,
+    "ast_hash": "beac962ac5577e0c68eb605a60064332",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/spine-state.md": {
+    "mtime": 1781151534.8603318,
+    "ast_hash": "5b8db40703cdc3eb2b5af999e4cbad2d",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/ten-step-governance.md": {
+    "mtime": 1781151534.8603318,
+    "ast_hash": "718727bebf867f2db3cc2dd3a570120a",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/meta-theory/references/verification-evidence.md": {
+    "mtime": 1781151534.8603318,
+    "ast_hash": "f8f49c60819f83c73e144c4218921ac2",
+    "semantic_hash": ""
+  },
+  "openclaw/skills/same-set-reusable-flow-for-project-file-inventor/SKILL.md": {
+    "mtime": 1781151534.8618574,
+    "ast_hash": "fc86cff86563939bccab43ee8db03270",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-artisan/AGENTS.md": {
+    "mtime": 1781151534.8405275,
+    "ast_hash": "58eb38fd7b1c23da6b9cecae6b27fc62",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-artisan/BOOT.md": {
+    "mtime": 1781151534.8390138,
+    "ast_hash": "054c30b5290a41606715175ffc744ee3",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-artisan/BOOTSTRAP.md": {
+    "mtime": 1781151534.8405275,
+    "ast_hash": "7c5976a47096e07c28ff2959f2e31197",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-artisan/HEARTBEAT.md": {
+    "mtime": 1781151534.8405275,
+    "ast_hash": "718f11a7199c1e89065d2c8383178b09",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-artisan/IDENTITY.md": {
+    "mtime": 1781151534.8405275,
+    "ast_hash": "e59ae4c10f7755b284f56c3193877cd9",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-artisan/MEMORY.md": {
+    "mtime": 1781151534.8405275,
+    "ast_hash": "a3c773bce500b183a2068f7898324303",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-artisan/SOUL.md": {
+    "mtime": 1781151534.8405275,
+    "ast_hash": "fc4dd0a91449a244812c3eb0fb917eb2",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-artisan/TOOLS.md": {
+    "mtime": 1781151534.8405275,
+    "ast_hash": "7c812e24e7cfd79044a1fed6068197d6",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-artisan/USER.md": {
+    "mtime": 1781151534.8405275,
+    "ast_hash": "34bb895744f112c1523106d9dfcc5c0b",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-chrysalis/AGENTS.md": {
+    "mtime": 1781151534.8511567,
+    "ast_hash": "58eb38fd7b1c23da6b9cecae6b27fc62",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-chrysalis/BOOT.md": {
+    "mtime": 1781151534.8496425,
+    "ast_hash": "1e8b2b8789c01098dd742c3a68923703",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-chrysalis/BOOTSTRAP.md": {
+    "mtime": 1781151534.8511567,
+    "ast_hash": "d0e9d0307f36ced4f371e367e49a175d",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-chrysalis/HEARTBEAT.md": {
+    "mtime": 1781151534.8511567,
+    "ast_hash": "7ba53fd4072fd21527b9d1a28ffab65c",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-chrysalis/IDENTITY.md": {
+    "mtime": 1781151534.8511567,
+    "ast_hash": "2d911f4e1949508490958f95f0fcab64",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-chrysalis/MEMORY.md": {
+    "mtime": 1781151534.8511567,
+    "ast_hash": "bce03163a1b04fff82924cfa96492753",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-chrysalis/SOUL.md": {
+    "mtime": 1781151534.8511567,
+    "ast_hash": "402d08d5290f1f5fe5b2a08cb5ac5c51",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-chrysalis/TOOLS.md": {
+    "mtime": 1781151534.8511567,
+    "ast_hash": "26e80f0b584e7763144a4f87244c319b",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-chrysalis/USER.md": {
+    "mtime": 1781151534.8511567,
+    "ast_hash": "34bb895744f112c1523106d9dfcc5c0b",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-conductor/AGENTS.md": {
+    "mtime": 1781151534.8450863,
+    "ast_hash": "58eb38fd7b1c23da6b9cecae6b27fc62",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-conductor/BOOT.md": {
+    "mtime": 1781151534.8450863,
+    "ast_hash": "491c3880f2b92f42ccd139e4b6d301d9",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-conductor/BOOTSTRAP.md": {
+    "mtime": 1781151534.8450863,
+    "ast_hash": "79cf6b7f9cdde991528661d6076ff8a7",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-conductor/HEARTBEAT.md": {
+    "mtime": 1781151534.8450863,
+    "ast_hash": "e685a3fc59eb067dfbd16d5d2078289c",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-conductor/IDENTITY.md": {
+    "mtime": 1781151534.8450863,
+    "ast_hash": "7f3426f1e50f8a9b226a14495a23cef7",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-conductor/MEMORY.md": {
+    "mtime": 1781151534.8450863,
+    "ast_hash": "e042c82cec9303d8568ff068cc7cebb9",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-conductor/SOUL.md": {
+    "mtime": 1781151534.8450863,
+    "ast_hash": "770046d9a808b8a1f2ad6531074fcf8a",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-conductor/TOOLS.md": {
+    "mtime": 1781151534.8450863,
+    "ast_hash": "9708d571059de3996f620a0bcbda6fa9",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-conductor/USER.md": {
+    "mtime": 1781151534.8450863,
+    "ast_hash": "34bb895744f112c1523106d9dfcc5c0b",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-genesis/AGENTS.md": {
+    "mtime": 1781151534.8390138,
+    "ast_hash": "58eb38fd7b1c23da6b9cecae6b27fc62",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-genesis/BOOT.md": {
+    "mtime": 1781151534.8375022,
+    "ast_hash": "1ceaf1bba5d692c8d0eb323ca205d1bb",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-genesis/BOOTSTRAP.md": {
+    "mtime": 1781151534.8375022,
+    "ast_hash": "3958cffc84e22e5e6d9775969ccb175a",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-genesis/HEARTBEAT.md": {
+    "mtime": 1781151534.8390138,
+    "ast_hash": "f8167a06c4107fbfddfba1cec0be7e2c",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-genesis/IDENTITY.md": {
+    "mtime": 1781151534.8375022,
+    "ast_hash": "4c6ccb1126b477e5d6f9681eeb8bd28f",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-genesis/MEMORY.md": {
+    "mtime": 1781151534.8375022,
+    "ast_hash": "0b9d5901186efa6073847e77e8bb062b",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-genesis/SOUL.md": {
+    "mtime": 1781151534.8375022,
+    "ast_hash": "94500cddbc2ee6c0a1dcc57c6a8c1968",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-genesis/TOOLS.md": {
+    "mtime": 1781151534.8390138,
+    "ast_hash": "67847a84bc4199ad87b338f127a08f74",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-genesis/USER.md": {
+    "mtime": 1781151534.8375022,
+    "ast_hash": "34bb895744f112c1523106d9dfcc5c0b",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-librarian/AGENTS.md": {
+    "mtime": 1781151534.8435743,
+    "ast_hash": "58eb38fd7b1c23da6b9cecae6b27fc62",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-librarian/BOOT.md": {
+    "mtime": 1781151534.8435743,
+    "ast_hash": "39bd5fcaeb7eb370ece435b09696188b",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-librarian/BOOTSTRAP.md": {
+    "mtime": 1781151534.8435743,
+    "ast_hash": "0db13d2c0e832b4830b125633d01ea5c",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-librarian/HEARTBEAT.md": {
+    "mtime": 1781151534.8435743,
+    "ast_hash": "af172743693c62fb734d13988102821c",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-librarian/IDENTITY.md": {
+    "mtime": 1781151534.8435743,
+    "ast_hash": "bdb314c24b243f278c392b767671f50e",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-librarian/MEMORY.md": {
+    "mtime": 1781151534.8435743,
+    "ast_hash": "71523484cab894f865ec66cac7c4232d",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-librarian/SOUL.md": {
+    "mtime": 1781151534.8435743,
+    "ast_hash": "0bb1983eb3c0f9be7fb616644850a554",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-librarian/TOOLS.md": {
+    "mtime": 1781151534.8435743,
+    "ast_hash": "9b39f5786af4cfc61da470033bb3e5ee",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-librarian/USER.md": {
+    "mtime": 1781151534.8435743,
+    "ast_hash": "34bb895744f112c1523106d9dfcc5c0b",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-prism/AGENTS.md": {
+    "mtime": 1781151534.8481166,
+    "ast_hash": "58eb38fd7b1c23da6b9cecae6b27fc62",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-prism/BOOT.md": {
+    "mtime": 1781151534.8481166,
+    "ast_hash": "851a5f37c0660a01d1c888929543a47a",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-prism/BOOTSTRAP.md": {
+    "mtime": 1781151534.8466015,
+    "ast_hash": "405c53c47332257e5d879d70f1803f06",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-prism/HEARTBEAT.md": {
+    "mtime": 1781151534.8481166,
+    "ast_hash": "3bffc49e027a0132837017dba1c3b8ea",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-prism/IDENTITY.md": {
+    "mtime": 1781151534.8481166,
+    "ast_hash": "e8cd2e5560986e2d0e0cc39253ee0000",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-prism/MEMORY.md": {
+    "mtime": 1781151534.8481166,
+    "ast_hash": "5e3f3c92ea5706f4fcb37ccbd4ef729c",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-prism/SOUL.md": {
+    "mtime": 1781151534.8481166,
+    "ast_hash": "478559215fca09d316b84750b3aaa47f",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-prism/TOOLS.md": {
+    "mtime": 1781151534.8481166,
+    "ast_hash": "e9fafb57ce92917a393f64f03ca33666",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-prism/USER.md": {
+    "mtime": 1781151534.8481166,
+    "ast_hash": "34bb895744f112c1523106d9dfcc5c0b",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-scout/AGENTS.md": {
+    "mtime": 1781151534.8496425,
+    "ast_hash": "58eb38fd7b1c23da6b9cecae6b27fc62",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-scout/BOOT.md": {
+    "mtime": 1781151534.8481166,
+    "ast_hash": "8fcc6084623a1a019f875cbe6fd7c17c",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-scout/BOOTSTRAP.md": {
+    "mtime": 1781151534.8496425,
+    "ast_hash": "c6c2786021ae707c3d050c16fc8b56cd",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-scout/HEARTBEAT.md": {
+    "mtime": 1781151534.8496425,
+    "ast_hash": "ed4e17492a11acff14819df16b136118",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-scout/IDENTITY.md": {
+    "mtime": 1781151534.8496425,
+    "ast_hash": "7287b35e38d41b534373506210c2c6fa",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-scout/MEMORY.md": {
+    "mtime": 1781151534.8496425,
+    "ast_hash": "f620e5abf4a71a82751542cb8a3873a2",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-scout/SOUL.md": {
+    "mtime": 1781151534.8496425,
+    "ast_hash": "4471889d7220836b69dccab944c3a06f",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-scout/TOOLS.md": {
+    "mtime": 1781151534.8496425,
+    "ast_hash": "1dee2e4c10cfd5fd6073ac818e0e323c",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-scout/USER.md": {
+    "mtime": 1781151534.8496425,
+    "ast_hash": "34bb895744f112c1523106d9dfcc5c0b",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-sentinel/AGENTS.md": {
+    "mtime": 1781151534.8420603,
+    "ast_hash": "58eb38fd7b1c23da6b9cecae6b27fc62",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-sentinel/BOOT.md": {
+    "mtime": 1781151534.8420603,
+    "ast_hash": "3f6d8f5d927d93d17915418e44a6bae7",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-sentinel/BOOTSTRAP.md": {
+    "mtime": 1781151534.8420603,
+    "ast_hash": "714ee7adab6dbfef3f41ff4ce178353e",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-sentinel/HEARTBEAT.md": {
+    "mtime": 1781151534.8420603,
+    "ast_hash": "e38bef12140b8d38bcc769cf49f345ea",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-sentinel/IDENTITY.md": {
+    "mtime": 1781151534.8420603,
+    "ast_hash": "ff8adf62d13a272169f4d6b4b36fa312",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-sentinel/MEMORY.md": {
+    "mtime": 1781151534.8420603,
+    "ast_hash": "238a4cdd7f4af937fe2f63fa301ffb5f",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-sentinel/SOUL.md": {
+    "mtime": 1781151534.8420603,
+    "ast_hash": "a258194954f0090a053fd447c5340299",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-sentinel/TOOLS.md": {
+    "mtime": 1781151534.8420603,
+    "ast_hash": "c8d4a12135a4748c1918bf9fa4693c99",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-sentinel/USER.md": {
+    "mtime": 1781151534.8420603,
+    "ast_hash": "34bb895744f112c1523106d9dfcc5c0b",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-warden/AGENTS.md": {
+    "mtime": 1781151534.8359778,
+    "ast_hash": "58eb38fd7b1c23da6b9cecae6b27fc62",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-warden/BOOT.md": {
+    "mtime": 1781151534.8359778,
+    "ast_hash": "c4986d690dfdf2f6403e6fcc03fd3368",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-warden/BOOTSTRAP.md": {
+    "mtime": 1781151534.8359778,
+    "ast_hash": "b82be606753f99efc6bef81ff6e627b8",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-warden/HEARTBEAT.md": {
+    "mtime": 1781151534.8359778,
+    "ast_hash": "7ec10652bb6629553ef879fd464d25b2",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-warden/IDENTITY.md": {
+    "mtime": 1781151534.8359778,
+    "ast_hash": "f48a21cc95f7ff6ab1f0ca531f42e562",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-warden/MEMORY.md": {
+    "mtime": 1781151534.8359778,
+    "ast_hash": "85ea519fbdafed695dbb4b2aadfa89df",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-warden/SOUL.md": {
+    "mtime": 1781151534.8359778,
+    "ast_hash": "35b15fba0f3fc752470a98819db45e23",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-warden/TOOLS.md": {
+    "mtime": 1781151534.8359778,
+    "ast_hash": "4af10a63ddb69406e5eb2e8f17d3f08a",
+    "semantic_hash": ""
+  },
+  "openclaw/workspaces/meta-warden/USER.md": {
+    "mtime": 1781151534.8359778,
+    "ast_hash": "34bb895744f112c1523106d9dfcc5c0b",
+    "semantic_hash": ""
+  }
+}
